@@ -324,4 +324,78 @@ border-radius: 21.3333px;
             line-height: 1.5;
         }
 
+  /* ======== Install Section ======== */
+
+.install-section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.install-section h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.install-section p {
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.steps-indicator {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  left: 10px;
+  margin-left: 380px;
+  margin-right: 400px;
+  margin-bottom: 30px;
+}
+
+.step {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #010101;
+}
+
+.step.active {
+  color: #ff3b3b;
+}
+
+.steps-indicator hr {
+  width: 350px;
+  height: 1px;
+  margin-top: 20px;
+  background-color: #ccc;
+  border: none;
+}
+
+.install-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px 20px;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #000000;
+  font-size: 0.95rem;
+}
+
+
 
